@@ -31,6 +31,12 @@ public class PageFunctions extends BasePage {
         System.out.println("Browser loaded sucesfully");
     }
 
+    public void openWebsite2(){
+        driver.get("https://www.amazon.com/");
+        
+        System.out.println("Browser loaded sucesfully");
+    }
+
     public void searchItem() throws InterruptedException {
         searchBar.click();
         System.out.println("Search bar clicked");

@@ -11,6 +11,7 @@ public class Test1 extends SuiteBase {
     @Test
     public void DemoTest1() throws InterruptedException {
 
+
         loadWebBrowser();
         PageFunctions obj_PF= new PageFunctions(driver);
 
